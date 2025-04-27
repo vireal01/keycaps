@@ -1,7 +1,7 @@
 // keytop thickness, aka how many millimeters between the inside and outside of the top surface of the key
 $keytop_thickness = 1;
 // wall thickness, aka the thickness of the sides of the keycap. note this is the total thickness, aka 3 = 1.5mm walls
-$wall_thickness = 4;
+$wall_thickness = 2.6;
 //whether stabilizer connectors are enabled
 $stabilizers = false;
 // font used for text
@@ -55,7 +55,7 @@ $rounded_key = false;
 $stem_type = "cherry";
 // how much higher the stem is than the bottom of the keycap.
 // inset stem requires support but is more accurate in some profiles
-$stem_inset = 0;
+$stem_inset = 1.5;
 // how many degrees to rotate the stems. useful for sideways keycaps, maybe
 $stem_rotation = 0;
 // radius of corners of keycap
